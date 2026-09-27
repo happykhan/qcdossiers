@@ -1,0 +1,3967 @@
+{
+  "downloaded_at_utc": "2026-09-27T09:58:15.873810+00:00",
+  "pathogenwatch_supported_organisms": "https://pathogen.watch/supported-organisms",
+  "qualibact_species_index": "https://qualibact.org/species/",
+  "engine_error_exclusions": {
+    "Klebsiella africana": "https://qualibact.org/Klebsiella/Klebsiella_africana/",
+    "Klebsiella huaxiensis": "https://qualibact.org/Klebsiella/Klebsiella_huaxiensis/",
+    "Klebsiella pasteurii": "https://qualibact.org/Klebsiella/Klebsiella_pasteurii/",
+    "Klebsiella quasivariicola": "https://qualibact.org/Klebsiella/Klebsiella_quasivariicola/",
+    "Klebsiella spallanzanii": "https://qualibact.org/Klebsiella/Klebsiella_spallanzanii/",
+    "Renibacterium salmoninarum": "https://qualibact.org/Renibacterium/Renibacterium_salmoninarum/"
+  },
+  "species": {
+    "Acinetobacter baumannii": {
+      "qualibact_page": "https://qualibact.org/Acinetobacter/Acinetobacter_baumannii/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Acinetobacter baumannii is a strictly aerobic, non-fermenting Gram-negative coccobacillus in the family Moraxellaceae, widely recognised as one of the most problematic nosocomial pathogens worldwide. It causes ventilator-associated pneumonia, bloodstream infections, and wound infections, particularly in intensive care settings, and is notorious for its ability to acquire multidrug resistance, including carbapenem resistance. Genomically, A. baumannii possesses a highly plastic genome with numerous resistance islands, insertion sequences, and a large accessory genome that facilitates rapid adaptation to hospital environments.",
+      "genome_count": 27262,
+      "refseq_count": 1015,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "3,600,000",
+          "warn_below": "3,700,000",
+          "warn_above": "4,200,000",
+          "fail_above": "4,700,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "38.6",
+          "warn_below": "38.8",
+          "warn_above": "39.2",
+          "fail_above": "39.8"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "3,400",
+          "warn_below": "3,500",
+          "warn_above": "4,100",
+          "fail_above": "4,600"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "7"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "24,000",
+          "warn_below": "36,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "270",
+          "fail_above": "380"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "3.6 Mb",
+          "3.7 Mb",
+          "4.2 Mb",
+          "4.7 Mb"
+        ],
+        [
+          "GC content",
+          "38.6%",
+          "38.8%",
+          "39.2%",
+          "39.8%"
+        ],
+        [
+          "Coding sequences",
+          "3,400",
+          "3,500",
+          "4,100",
+          "4,600"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "7%"
+        ],
+        [
+          "N50 (Shovill)",
+          "24 kb",
+          "36 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "270",
+          "380"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Acinetobacter/Acinetobacter_baumannii/",
+          "cache_path": "cache/qualibact/Acinetobacter_baumannii/page.html",
+          "sha256": "48d66efc34f6c30f0aab7e52a2f6b3b3724e8d4803a8ace257bbd3059997d474",
+          "bytes": 79682
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Acinetobacter_baumannii/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Acinetobacter_baumannii/qualibact-v1.0/manifest.json",
+          "sha256": "68bc4927c1f68920e738523f6588f70088d1cf2a151522785630f520946ca0a9",
+          "bytes": 8762
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Acinetobacter_baumannii/qualibact-v1.0/filtered_plots/Acinetobacter_baumannii_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Acinetobacter_baumannii/qualibact-v1.0/plots/Acinetobacter_baumannii_filt_N50_number.png",
+            "sha256": "f1cd8c3b5203af2c981b1bd3852a7833a0d2f17a2be1b50b2db11a430a24623f",
+            "bytes": 174940
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Acinetobacter_baumannii/qualibact-v1.0/Acinetobacter_baumannii_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Acinetobacter_baumannii/qualibact-v1.0/plots/Acinetobacter_baumannii_CDS_vs_Genome_Size.png",
+            "sha256": "6ed46ee3718d7a43ffa95aedabad0456af59c89917b063a66c08ba8e390ad620",
+            "bytes": 87333
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Acinetobacter_baumannii/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Acinetobacter_baumannii/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "8a46a040d3882564a5b1246381966b663d897fa719da548a7c1188446a268929",
+            "bytes": 31000
+          }
+        }
+      }
+    },
+    "Campylobacter coli": {
+      "qualibact_page": "https://qualibact.org/Campylobacter/Campylobacter_coli/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": "WARN",
+      "overview_source_text": "Campylobacter coli is a Gram-negative, microaerophilic, spiral-shaped rod of the family Campylobacteraceae, primarily associated with pigs but also found in poultry and other livestock. It is the second most common cause of human campylobacteriosis after C. jejuni, causing acute gastroenteritis characterised by diarrhoea, abdominal pain, and fever. C. coli genomes are approximately 1.7 Mb in size, and the species shows high rates of inter- and intraspecific recombination, particularly with C. jejuni, complicating phylogenetic delineation.",
+      "genome_count": 190,
+      "refseq_count": 92,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,600,000",
+          "warn_below": "1,600,000",
+          "warn_above": "1,800,000",
+          "fail_above": "2,200,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "30",
+          "warn_below": "31",
+          "warn_above": "31",
+          "fail_above": "32"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,600",
+          "warn_below": "1,600",
+          "warn_above": "2,000",
+          "fail_above": "2,400"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "94",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "13"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "31,000",
+          "warn_below": "32,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "110",
+          "fail_above": "120"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.6 Mb",
+          "1.6 Mb",
+          "1.8 Mb",
+          "2.2 Mb"
+        ],
+        [
+          "GC content",
+          "30.0%",
+          "31.0%",
+          "31.0%",
+          "32.0%"
+        ],
+        [
+          "Coding sequences",
+          "1,600",
+          "1,600",
+          "2,000",
+          "2,400"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "94%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "13%"
+        ],
+        [
+          "N50 (Shovill)",
+          "31 kb",
+          "32 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "110",
+          "120"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Campylobacter/Campylobacter_coli/",
+          "cache_path": "cache/qualibact/Campylobacter_coli/page.html",
+          "sha256": "d598d11acfa3847dda4635203fceb079dacadcd269e158870a9e4b9117f835db",
+          "bytes": 84442
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Campylobacter_coli/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Campylobacter_coli/qualibact-v1.1/manifest.json",
+          "sha256": "084361889b8db8431b3d71e2a0841a5df2bdb274531a885ed204d899bd038bb3",
+          "bytes": 8096
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_coli/qualibact-v1.1/filtered_plots/Campylobacter%20coli_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Campylobacter_coli/qualibact-v1.1/plots/Campylobacter coli_filt_N50_number.png",
+            "sha256": "de7d71b7969b5c5fc7661543ed058eb05ad05d91346e22f2031b204467ee1b24",
+            "bytes": 89505
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_coli/qualibact-v1.1/Genome_Size_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Campylobacter_coli/qualibact-v1.1/plots/Genome_Size_refseq_histogram_kde.png",
+            "sha256": "a9616cc16dc2a36f7da3dc075f8a9a95cd6d3d396c91da754b8086554d9ee460",
+            "bytes": 26099
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_coli/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Campylobacter_coli/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "cece5cdd75759c31590ebfaa45cef642448a5eb3e9c5699ff5fa1c9274b8d74f",
+            "bytes": 18546
+          }
+        }
+      }
+    },
+    "Campylobacter jejuni": {
+      "qualibact_page": "https://qualibact.org/Campylobacter/Campylobacter_jejuni/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": null,
+      "overview_source_text": "Campylobacter jejuni is a Gram-negative, microaerophilic, spiral-shaped rod of the family Campylobacteraceae and the leading bacterial cause of foodborne gastroenteritis worldwide. It is commonly transmitted through undercooked poultry, unpasteurised milk, and contaminated water, causing acute diarrhoeal illness and, in rare cases, post-infectious Guillain-Barré syndrome. C. jejuni has a relatively small (~1.6 Mb), AT-rich genome with extensive phase-variable contingency loci, high natural competence for DNA uptake, and frequent interstrain recombination.",
+      "genome_count": 1157,
+      "refseq_count": 503,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,500,000",
+          "warn_below": "1,600,000",
+          "warn_above": "1,900,000",
+          "fail_above": "2,100,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "30",
+          "warn_below": "30",
+          "warn_above": "31",
+          "fail_above": "31"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,600",
+          "warn_below": "1,600",
+          "warn_above": "2,000",
+          "fail_above": "2,200"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "4",
+          "fail_above": "10"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "36,000",
+          "warn_below": "46,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "100",
+          "fail_above": "120"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.5 Mb",
+          "1.6 Mb",
+          "1.9 Mb",
+          "2.1 Mb"
+        ],
+        [
+          "GC content",
+          "30.0%",
+          "30.0%",
+          "31.0%",
+          "31.0%"
+        ],
+        [
+          "Coding sequences",
+          "1,600",
+          "1,600",
+          "2,000",
+          "2,200"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "4%",
+          "10%"
+        ],
+        [
+          "N50 (Shovill)",
+          "36 kb",
+          "46 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "100",
+          "120"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Campylobacter/Campylobacter_jejuni/",
+          "cache_path": "cache/qualibact/Campylobacter_jejuni/page.html",
+          "sha256": "c1b6e4f1a8cfcffae29c745eee81240d2388ecdd573dc1a4263573f0b84b8778",
+          "bytes": 83572
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Campylobacter_jejuni/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Campylobacter_jejuni/qualibact-v1.1/manifest.json",
+          "sha256": "2146f648bac68114cb7774c8aef7c4dba0d5c61c2c0bcbf273028c114a539d18",
+          "bytes": 8326
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_jejuni/qualibact-v1.1/filtered_plots/Campylobacter%20jejuni_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Campylobacter_jejuni/qualibact-v1.1/plots/Campylobacter jejuni_filt_N50_number.png",
+            "sha256": "c447969d13fc73b92d54a24e423bb849901c3a4182af882354011fc3f72cd946",
+            "bytes": 144494
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_jejuni/qualibact-v1.1/Campylobacter_jejuni_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Campylobacter_jejuni/qualibact-v1.1/plots/Campylobacter_jejuni_CDS_vs_Genome_Size.png",
+            "sha256": "0888bab30d383af98bf13169d425fb6c87dd510813286492a9f21ff4ebd55de2",
+            "bytes": 65087
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Campylobacter_jejuni/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Campylobacter_jejuni/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "ff07ff8f9d259e86a180ea4806161292a30aa958515bcfda029ba19d27bba754",
+            "bytes": 20088
+          }
+        }
+      }
+    },
+    "Enterobacter cloacae": {
+      "qualibact_page": "https://qualibact.org/Enterobacter/Enterobacter_cloacae/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Enterobacter cloacae is a Gram-negative, facultatively anaerobic rod in the family Enterobacteriaceae, widely distributed in soil, water, sewage, and the human gastrointestinal tract. It is a clinically important opportunistic pathogen and a leading cause of nosocomial bacteraemia, pneumonia, urinary tract infections, and surgical-site infections, particularly in intensive care settings. E. cloacae is the type species of the E. cloacae complex and carries an inducible chromosomal AmpC beta-lactamase, with frequent acquisition of carbapenemases and extended-spectrum beta-lactamases on mobile elements.",
+      "genome_count": 1266,
+      "refseq_count": 46,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,500,000",
+          "warn_below": "4,700,000",
+          "warn_above": "5,700,000",
+          "fail_above": "5,800,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "52.9",
+          "warn_below": "53.1",
+          "warn_above": "55.9",
+          "fail_above": "57"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,300",
+          "warn_below": "4,400",
+          "warn_above": "5,600",
+          "fail_above": "5,900"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "90",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "4"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "41,000",
+          "warn_below": "65,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "280",
+          "fail_above": "410"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.5 Mb",
+          "4.7 Mb",
+          "5.7 Mb",
+          "5.8 Mb"
+        ],
+        [
+          "GC content",
+          "52.9%",
+          "53.1%",
+          "55.9%",
+          "57.0%"
+        ],
+        [
+          "Coding sequences",
+          "4,300",
+          "4,400",
+          "5,600",
+          "5,900"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "90%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "4%"
+        ],
+        [
+          "N50 (Shovill)",
+          "41 kb",
+          "65 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "280",
+          "410"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Enterobacter/Enterobacter_cloacae/",
+          "cache_path": "cache/qualibact/Enterobacter_cloacae/page.html",
+          "sha256": "208a7f2eeecda945bf101f3ed0ffa31fc4245f6a9d2eed7c3b707cd9573ec7ce",
+          "bytes": 78992
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Enterobacter_cloacae/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Enterobacter_cloacae/qualibact-v1.0/manifest.json",
+          "sha256": "e9b5d7681c58fb629ebc27d046d28c116f1425fed40ef91c0c0f602025b48699",
+          "bytes": 8573
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Enterobacter_cloacae/qualibact-v1.0/filtered_plots/Enterobacter_cloacae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Enterobacter_cloacae/qualibact-v1.0/plots/Enterobacter_cloacae_filt_N50_number.png",
+            "sha256": "195d6221c999a8e2c7b6a2173d01264b555f14885656828d26e0f601d43ce316",
+            "bytes": 133952
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Enterobacter_cloacae/qualibact-v1.0/Enterobacter_cloacae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Enterobacter_cloacae/qualibact-v1.0/plots/Enterobacter_cloacae_CDS_vs_Genome_Size.png",
+            "sha256": "9899c48816766c54ce38e3e710b1017b5c7468b7fb9517cc087f7710efae3bfe",
+            "bytes": 63195
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Enterobacter_cloacae/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Enterobacter_cloacae/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "1224fe1be449758b0539f58328a9f44d33f006a36753b663f21c1c19337bb3a1",
+            "bytes": 32737
+          }
+        }
+      }
+    },
+    "Enterococcus faecium": {
+      "qualibact_page": "https://qualibact.org/Enterococcus/Enterococcus_faecium/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Enterococcus faecium is a Gram-positive, catalase-negative coccus in the family Enterococcaceae, found in the gastrointestinal tract of humans and animals. It is a major nosocomial pathogen and a leading cause of vancomycin-resistant enterococcal (VRE) infections, including bacteraemia, endocarditis, and urinary tract infections, and is listed among the WHO priority pathogens for antimicrobial resistance. E. faecium is genomically divided into hospital-adapted (clade A1) and community/commensal (clade B) lineages, with hospital strains carrying extensive accessory genomes enriched in resistance and virulence determinants.",
+      "genome_count": 33675,
+      "refseq_count": 387,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "2,400,000",
+          "warn_below": "2,700,000",
+          "warn_above": "3,200,000",
+          "fail_above": "3,500,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "37.3",
+          "warn_below": "37.4",
+          "warn_above": "38",
+          "fail_above": "38.6"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "2,300",
+          "warn_below": "2,600",
+          "warn_above": "3,300",
+          "fail_above": "3,600"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "5",
+          "fail_above": "5"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "18,000",
+          "warn_below": "24,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "410",
+          "fail_above": "540"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "2.4 Mb",
+          "2.7 Mb",
+          "3.2 Mb",
+          "3.5 Mb"
+        ],
+        [
+          "GC content",
+          "37.3%",
+          "37.4%",
+          "38.0%",
+          "38.6%"
+        ],
+        [
+          "Coding sequences",
+          "2,300",
+          "2,600",
+          "3,300",
+          "3,600"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "5%",
+          "5%"
+        ],
+        [
+          "N50 (Shovill)",
+          "18 kb",
+          "24 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "410",
+          "540"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Enterococcus/Enterococcus_faecium/",
+          "cache_path": "cache/qualibact/Enterococcus_faecium/page.html",
+          "sha256": "c7cd87f2c2cb83c86d27b56092e367b54dceac8d93ce4ed3c569971fbb967a5c",
+          "bytes": 79010
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Enterococcus_faecium/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Enterococcus_faecium/qualibact-v1.0/manifest.json",
+          "sha256": "c51496a4e2d441be89a31f1b6fa1f42b61aaf7bcb47a71423982354bdd60da1c",
+          "bytes": 8540
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Enterococcus_faecium/qualibact-v1.0/filtered_plots/Enterococcus_faecium_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Enterococcus_faecium/qualibact-v1.0/plots/Enterococcus_faecium_filt_N50_number.png",
+            "sha256": "2b2539457a1c0f22a63f13b4cd89ce9de765ad9fc3efb1ac690769752bff367b",
+            "bytes": 209712
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Enterococcus_faecium/qualibact-v1.0/Enterococcus_faecium_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Enterococcus_faecium/qualibact-v1.0/plots/Enterococcus_faecium_CDS_vs_Genome_Size.png",
+            "sha256": "60bb1e45b8bdadfc7c7f0ca33958a7807c806df972ae7ab786a6adc93eb80772",
+            "bytes": 75654
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Enterococcus_faecium/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Enterococcus_faecium/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "736a10417287dffbf4b3dd856d3aea519de757b8ff8bee19cfe4c52feb3f513a",
+            "bytes": 34688
+          }
+        }
+      }
+    },
+    "Escherichia coli": {
+      "qualibact_page": "https://qualibact.org/Escherichia/Escherichia_coli/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": "WARN",
+      "overview_source_text": "Escherichia coli is a Gram-negative, facultatively anaerobic rod in the family Enterobacteriaceae, and one of the best-characterised model organisms in microbiology. While predominantly a harmless commensal of the human gastrointestinal tract, pathogenic variants cause a wide spectrum of diseases including urinary tract infections, neonatal meningitis, bacteraemia, and diarrhoeal syndromes mediated by distinct pathotypes (UPEC, EHEC, ETEC, EIEC, among others). E. coli has an open pangenome with extensive genomic plasticity driven by horizontal gene transfer, phages, and plasmids, and is a critical sentinel organism for antimicrobial resistance surveillance globally.",
+      "genome_count": 376660,
+      "refseq_count": 5033,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,100,000",
+          "warn_below": "4,400,000",
+          "warn_above": "5,700,000",
+          "fail_above": "6,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "50",
+          "warn_below": "50.2",
+          "warn_above": "50.9",
+          "fail_above": "51.2"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "3,900",
+          "warn_below": "4,200",
+          "warn_above": "5,800",
+          "fail_above": "6,500"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "16"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "20,000",
+          "warn_below": "23,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "600",
+          "fail_above": "670"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.1 Mb",
+          "4.4 Mb",
+          "5.7 Mb",
+          "6.3 Mb"
+        ],
+        [
+          "GC content",
+          "50.0%",
+          "50.2%",
+          "50.9%",
+          "51.2%"
+        ],
+        [
+          "Coding sequences",
+          "3,900",
+          "4,200",
+          "5,800",
+          "6,500"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "16%"
+        ],
+        [
+          "N50 (Shovill)",
+          "20 kb",
+          "23 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "600",
+          "670"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Escherichia/Escherichia_coli/",
+          "cache_path": "cache/qualibact/Escherichia_coli/page.html",
+          "sha256": "812c622049761e5c3b75cf0e9e39f3f8ab327a0018fad40a1145948a06f08d58",
+          "bytes": 82013
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Escherichia_coli/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Escherichia_coli/qualibact-v1.0/manifest.json",
+          "sha256": "ac6dd41488a09d751dd26c3e039f0be4f7a91c4172c4fe1387d2a7a2d9878a21",
+          "bytes": 8609
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Escherichia_coli/qualibact-v1.0/filtered_plots/Escherichia_coli_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Escherichia_coli/qualibact-v1.0/plots/Escherichia_coli_filt_N50_number.png",
+            "sha256": "8d163dd74b43710d8fa1e64a2d1ddf80c6cb93add7303c79d646a137edaa8a5b",
+            "bytes": 259548
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Escherichia_coli/qualibact-v1.0/Escherichia_coli_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Escherichia_coli/qualibact-v1.0/plots/Escherichia_coli_CDS_vs_Genome_Size.png",
+            "sha256": "5ab2a795636059d72b780eb49b4c3aae7078deee1eda58d26f247863e6929996",
+            "bytes": 104212
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Escherichia_coli/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Escherichia_coli/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "973c8cc3eaf93f69c04943bde2a2acfb853540878392037755a1095e78e178be",
+            "bytes": 31039
+          }
+        }
+      }
+    },
+    "Haemophilus influenzae": {
+      "qualibact_page": "https://qualibact.org/Haemophilus/Haemophilus_influenzae/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": null,
+      "overview_source_text": "Haemophilus influenzae is a Gram-negative, facultatively anaerobic coccobacillus in the family Pasteurellaceae, requiring both X and V growth factors, and a commensal and pathogen of the human respiratory tract. Encapsulated strains, particularly serotype b (Hib), were historically the leading cause of bacterial meningitis in children before widespread vaccination, while non-typeable strains remain a major cause of otitis media, sinusitis, community-acquired pneumonia, and exacerbations of chronic obstructive pulmonary disease. H. influenzae has a small, naturally transformable genome (~1.8 Mb) with extensive phase-variable gene regulation and was the first free-living organism to have its genome fully sequenced.",
+      "genome_count": 11772,
+      "refseq_count": 299,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,700,000",
+          "warn_below": "1,700,000",
+          "warn_above": "2,000,000",
+          "fail_above": "2,000,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "37.7",
+          "warn_below": "37.8",
+          "warn_above": "38.3",
+          "fail_above": "38.5"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,600",
+          "warn_below": "1,600",
+          "warn_above": "2,000",
+          "fail_above": "2,200"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "93",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "6"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "30,000",
+          "warn_below": "52,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "100",
+          "fail_above": "100"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.7 Mb",
+          "1.7 Mb",
+          "2.0 Mb",
+          "2.0 Mb"
+        ],
+        [
+          "GC content",
+          "37.7%",
+          "37.8%",
+          "38.3%",
+          "38.5%"
+        ],
+        [
+          "Coding sequences",
+          "1,600",
+          "1,600",
+          "2,000",
+          "2,200"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "93%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "6%"
+        ],
+        [
+          "N50 (Shovill)",
+          "30 kb",
+          "52 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "100",
+          "100"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Haemophilus/Haemophilus_influenzae/",
+          "cache_path": "cache/qualibact/Haemophilus_influenzae/page.html",
+          "sha256": "3be424b6fdeb5b9152d1f7da6523c9b9d114267b5f12e4086a19fc89a4e69cf1",
+          "bytes": 84988
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Haemophilus_influenzae/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Haemophilus_influenzae/qualibact-v1.1/manifest.json",
+          "sha256": "14bfa339beaf8bc097253d4a9d831b4a88a75293f0bc1e33fd4183189f6d5cd2",
+          "bytes": 8680
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Haemophilus_influenzae/qualibact-v1.1/filtered_plots/Haemophilus_influenzae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Haemophilus_influenzae/qualibact-v1.1/plots/Haemophilus_influenzae_filt_N50_number.png",
+            "sha256": "4477d98fdd19e8d40f70669d3a8312ca3e99d124b41f90bbd1c095c523f118c0",
+            "bytes": 166132
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Haemophilus_influenzae/qualibact-v1.1/Haemophilus_influenzae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Haemophilus_influenzae/qualibact-v1.1/plots/Haemophilus_influenzae_CDS_vs_Genome_Size.png",
+            "sha256": "fbc4abb65bd2fa15eb8e583218e6affcae1d32043778cb3ecd67a8a37c0a8684",
+            "bytes": 76570
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Haemophilus_influenzae/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Haemophilus_influenzae/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "ddd3105626f587ffb1a1030282dd71fe5a7a0f126473a92ff701ef26ec3c658c",
+            "bytes": 34400
+          }
+        }
+      }
+    },
+    "Klebsiella aerogenes": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_aerogenes/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella aerogenes (formerly Enterobacter aerogenes) is a Gram-negative, facultatively anaerobic, encapsulated rod in the family Enterobacteriaceae, found in the environment and the human gastrointestinal tract. It is a significant cause of nosocomial infections including pneumonia, urinary tract infections, bloodstream infections, and surgical-site infections, particularly in intensive care units. K. aerogenes possesses an inducible chromosomal AmpC beta-lactamase and frequently acquires plasmid-mediated carbapenemases and extended-spectrum beta-lactamases, contributing to multidrug-resistant outbreaks.",
+      "genome_count": 1614,
+      "refseq_count": 98,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,900,000",
+          "warn_below": "5,000,000",
+          "warn_above": "5,600,000",
+          "fail_above": "6,000,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "54.2",
+          "warn_below": "54.6",
+          "warn_above": "55.3",
+          "fail_above": "55.3"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,500",
+          "warn_below": "4,600",
+          "warn_above": "5,300",
+          "fail_above": "6,000"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "90",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "10"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "78,000",
+          "warn_below": "132,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "140",
+          "fail_above": "200"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.9 Mb",
+          "5.0 Mb",
+          "5.6 Mb",
+          "6.0 Mb"
+        ],
+        [
+          "GC content",
+          "54.2%",
+          "54.6%",
+          "55.3%",
+          "55.3%"
+        ],
+        [
+          "Coding sequences",
+          "4,500",
+          "4,600",
+          "5,300",
+          "6,000"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "90%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "10%"
+        ],
+        [
+          "N50 (Shovill)",
+          "78 kb",
+          "132 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "140",
+          "200"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_aerogenes/",
+          "cache_path": "cache/qualibact/Klebsiella_aerogenes/page.html",
+          "sha256": "2531ff25f8737fb5fc936031719a29341c89768dfa7bb7a42b78495a84d3ab4c",
+          "bytes": 79548
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_aerogenes/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_aerogenes/qualibact-v1.0/manifest.json",
+          "sha256": "3dc148a2aee9c407d7df7c2cdfe2fdbb3258eda6de72e9f65b6a88cf83257f47",
+          "bytes": 8598
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_aerogenes/qualibact-v1.0/filtered_plots/Klebsiella_aerogenes_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_aerogenes/qualibact-v1.0/plots/Klebsiella_aerogenes_filt_N50_number.png",
+            "sha256": "6a9d6087af744ca002aadaa5a528b32c0c8ed9a683550c4579c3a1302d62fdc4",
+            "bytes": 165601
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_aerogenes/qualibact-v1.0/Klebsiella_aerogenes_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_aerogenes/qualibact-v1.0/plots/Klebsiella_aerogenes_CDS_vs_Genome_Size.png",
+            "sha256": "25185aead980e526fe0266a48a86f75d47d5d5b3990e97bd41987ed4f2dd1468",
+            "bytes": 54892
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_aerogenes/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_aerogenes/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "8760d485073cebc5c14cd48a144d0d61a585c37141d1c68afc6b7e8ffa920399",
+            "bytes": 29207
+          }
+        }
+      }
+    },
+    "Klebsiella grimontii": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_grimontii/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": "INFO",
+      "overview_source_text": "Klebsiella grimontii is a Gram-negative, facultatively anaerobic rod in the family Enterobacteriaceae, recently described as a distinct species within the Klebsiella oxytoca species complex. It is found in clinical specimens, the environment, and food products, and has been associated with antibiotic-associated haemorrhagic colitis through the production of cytotoxins including tilivalline. K. grimontii can be reliably differentiated from other K. oxytoca complex members only through genomic methods such as average nucleotide identity and core-genome phylogenetics.",
+      "genome_count": 635,
+      "refseq_count": 35,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "5,500,000",
+          "warn_below": "5,600,000",
+          "warn_above": "6,600,000",
+          "fail_above": "6,800,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "54.7",
+          "warn_below": "55",
+          "warn_above": "56.1",
+          "fail_above": "56.2"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "5,100",
+          "warn_below": "5,200",
+          "warn_above": "6,400",
+          "fail_above": "6,700"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "97",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "2"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "93,000",
+          "warn_below": "110,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "250",
+          "fail_above": "320"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "5.5 Mb",
+          "5.6 Mb",
+          "6.6 Mb",
+          "6.8 Mb"
+        ],
+        [
+          "GC content",
+          "54.7%",
+          "55.0%",
+          "56.1%",
+          "56.2%"
+        ],
+        [
+          "Coding sequences",
+          "5,100",
+          "5,200",
+          "6,400",
+          "6,700"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "97%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "2%"
+        ],
+        [
+          "N50 (Shovill)",
+          "93 kb",
+          "110 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "250",
+          "320"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_grimontii/",
+          "cache_path": "cache/qualibact/Klebsiella_grimontii/page.html",
+          "sha256": "7bd58401cfb5dbb02fb210e3e75df38986f18a0997a21297da22bcd979df2e71",
+          "bytes": 81908
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_grimontii/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_grimontii/qualibact-v1.0/manifest.json",
+          "sha256": "4d80b77b018d37e6227e6a6d92148e890a326339291d0800764e5e7238064859",
+          "bytes": 8808
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_grimontii/qualibact-v1.0/filtered_plots/Klebsiella_grimontii_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_grimontii/qualibact-v1.0/plots/Klebsiella_grimontii_filt_N50_number.png",
+            "sha256": "ee0d71a310d4d9d295610cefff834fd3d014d2858998e1ff345aa76c2a958a27",
+            "bytes": 146707
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_grimontii/qualibact-v1.0/Klebsiella_grimontii_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_grimontii/qualibact-v1.0/plots/Klebsiella_grimontii_CDS_vs_Genome_Size.png",
+            "sha256": "beba245aa528947f7f5cf57073c1950016e8a47fb5dda74e7aad61f609d54252",
+            "bytes": 56820
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_grimontii/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_grimontii/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "b6a874605eeace463fa95279b54283d55cba72af1bbab481b95f4670874f942b",
+            "bytes": 24668
+          }
+        }
+      }
+    },
+    "Klebsiella michiganensis": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_michiganensis/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella michiganensis is a Gram-negative, facultatively anaerobic rod in the family Enterobacteriaceae, belonging to the Klebsiella oxytoca species complex and initially isolated from a toothbrush holder. It is found in clinical, environmental, and food-associated samples and can cause opportunistic infections similar to those of K. oxytoca, including bacteraemia and urinary tract infections. K. michiganensis frequently harbours the cytotoxin biosynthetic gene cluster and can carry extended-spectrum beta-lactamase and carbapenemase genes on mobile genetic elements.",
+      "genome_count": 1832,
+      "refseq_count": 115,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "5,700,000",
+          "warn_below": "5,800,000",
+          "warn_above": "6,700,000",
+          "fail_above": "7,000,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "55",
+          "warn_below": "55.2",
+          "warn_above": "56.1",
+          "fail_above": "56.2"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "5,300",
+          "warn_below": "5,400",
+          "warn_above": "6,500",
+          "fail_above": "6,900"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "3",
+          "fail_above": "4"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "53,000",
+          "warn_below": "72,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "320",
+          "fail_above": "380"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "5.7 Mb",
+          "5.8 Mb",
+          "6.7 Mb",
+          "7.0 Mb"
+        ],
+        [
+          "GC content",
+          "55.0%",
+          "55.2%",
+          "56.1%",
+          "56.2%"
+        ],
+        [
+          "Coding sequences",
+          "5,300",
+          "5,400",
+          "6,500",
+          "6,900"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "3%",
+          "4%"
+        ],
+        [
+          "N50 (Shovill)",
+          "53 kb",
+          "72 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "320",
+          "380"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_michiganensis/",
+          "cache_path": "cache/qualibact/Klebsiella_michiganensis/page.html",
+          "sha256": "01bd24fa41a5ea7f94963678027072b86e4f91e05c0581ffb87b2df51631e8c0",
+          "bytes": 80342
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_michiganensis/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_michiganensis/qualibact-v1.0/manifest.json",
+          "sha256": "2d4365efb822c165e124553f1c67c795ed357d37c55a0009c234324171e63868",
+          "bytes": 8887
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_michiganensis/qualibact-v1.0/filtered_plots/Klebsiella_michiganensis_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_michiganensis/qualibact-v1.0/plots/Klebsiella_michiganensis_filt_N50_number.png",
+            "sha256": "8946cdd4fb1e9abe908e998e41f390fac44f479392c57c789fb83a02a046a6fb",
+            "bytes": 177571
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_michiganensis/qualibact-v1.0/Klebsiella_michiganensis_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_michiganensis/qualibact-v1.0/plots/Klebsiella_michiganensis_CDS_vs_Genome_Size.png",
+            "sha256": "153899f6f7df6c24aca94c98c9a64ac61a1c4d098b6a4721a5dd48f0946a44d6",
+            "bytes": 65379
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_michiganensis/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_michiganensis/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "2e5b9a270984d216bafc2553d917485cf2253123550354c15d86ac355dba3fa0",
+            "bytes": 33836
+          }
+        }
+      }
+    },
+    "Klebsiella oxytoca": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_oxytoca/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella oxytoca is a Gram-negative, facultatively anaerobic, encapsulated rod in the family Enterobacteriaceae, found in the environment, food, and the human gastrointestinal tract. It is the second most common Klebsiella species in clinical settings, causing urinary tract infections, bacteraemia, and notably antibiotic-associated haemorrhagic colitis mediated by the cytotoxin tilivalline. K. oxytoca is the type species of a broader species complex that includes K. michiganensis and K. grimontii, and possesses a chromosomal class A beta-lactamase (OXY) that confers intrinsic resistance to amino- and carboxy-penicillins.",
+      "genome_count": 1146,
+      "refseq_count": 60,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "5,300,000",
+          "warn_below": "5,700,000",
+          "warn_above": "6,600,000",
+          "fail_above": "6,800,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "54.1",
+          "warn_below": "54.5",
+          "warn_above": "55.3",
+          "fail_above": "55.4"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "5,000",
+          "warn_below": "5,200",
+          "warn_above": "6,300",
+          "fail_above": "6,600"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "8"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "64,000",
+          "warn_below": "106,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "260",
+          "fail_above": "360"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "5.3 Mb",
+          "5.7 Mb",
+          "6.6 Mb",
+          "6.8 Mb"
+        ],
+        [
+          "GC content",
+          "54.1%",
+          "54.5%",
+          "55.3%",
+          "55.4%"
+        ],
+        [
+          "Coding sequences",
+          "5,000",
+          "5,200",
+          "6,300",
+          "6,600"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "8%"
+        ],
+        [
+          "N50 (Shovill)",
+          "64 kb",
+          "106 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "260",
+          "360"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_oxytoca/",
+          "cache_path": "cache/qualibact/Klebsiella_oxytoca/page.html",
+          "sha256": "5057094e8787140f105c5fabc154b3b54e822c31845e26c26160c630dbf80832",
+          "bytes": 79219
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_oxytoca/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_oxytoca/qualibact-v1.0/manifest.json",
+          "sha256": "eb7b53d1352f13020a6668ac2cf174a798f0e6c285ec7800ecd12937c7ed5ee5",
+          "bytes": 8426
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_oxytoca/qualibact-v1.0/filtered_plots/Klebsiella_oxytoca_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_oxytoca/qualibact-v1.0/plots/Klebsiella_oxytoca_filt_N50_number.png",
+            "sha256": "c48bcc071c601a95cf77dbf84e314f1810ae11467f58b0f71b076a1916ea06ea",
+            "bytes": 144044
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_oxytoca/qualibact-v1.0/Klebsiella_oxytoca_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_oxytoca/qualibact-v1.0/plots/Klebsiella_oxytoca_CDS_vs_Genome_Size.png",
+            "sha256": "e9e5c3f050ec3dccc34b052748d5d758e10c11988e5eb107c47b37554a1d1424",
+            "bytes": 61551
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_oxytoca/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_oxytoca/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "12f419087dcb997e90f67654e09f33060af95c01a7b308e05bc1ef4abb277f4f",
+            "bytes": 27439
+          }
+        }
+      }
+    },
+    "Klebsiella pneumoniae": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_pneumoniae/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella pneumoniae is a Gram-negative, encapsulated, non-motile rod in the family Enterobacteriaceae, and one of the most important opportunistic pathogens worldwide. It causes a wide range of infections including pneumonia, urinary tract infections, bloodstream infections, liver abscesses, and neonatal sepsis, and hypervirulent strains can cause severe community-acquired disease in otherwise healthy individuals. K. pneumoniae is a critical priority pathogen for antimicrobial resistance, with the global spread of carbapenemase-producing (KPC, NDM, OXA-48-like) and hypervirulent lineages driven by extensive plasmid-mediated horizontal gene transfer and diverse capsular polysaccharide serotypes.",
+      "genome_count": 70874,
+      "refseq_count": 3288,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,900,000",
+          "warn_below": "5,200,000",
+          "warn_above": "6,000,000",
+          "fail_above": "6,400,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "55.8",
+          "warn_below": "56.6",
+          "warn_above": "57.6",
+          "fail_above": "58.1"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,800",
+          "warn_below": "4,800",
+          "warn_above": "5,700",
+          "fail_above": "6,500"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "5"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "58,000",
+          "warn_below": "97,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "270",
+          "fail_above": "350"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.9 Mb",
+          "5.2 Mb",
+          "6.0 Mb",
+          "6.4 Mb"
+        ],
+        [
+          "GC content",
+          "55.8%",
+          "56.6%",
+          "57.6%",
+          "58.1%"
+        ],
+        [
+          "Coding sequences",
+          "4,800",
+          "4,800",
+          "5,700",
+          "6,500"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "5%"
+        ],
+        [
+          "N50 (Shovill)",
+          "58 kb",
+          "97 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "270",
+          "350"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_pneumoniae/",
+          "cache_path": "cache/qualibact/Klebsiella_pneumoniae/page.html",
+          "sha256": "219217f90d9653f47bd7be5b50dc5b16a8652ec114fa7568cded04aaf76a3576",
+          "bytes": 79926
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_pneumoniae/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_pneumoniae/qualibact-v1.0/manifest.json",
+          "sha256": "1e82c8b33e11fd36fde200b444f7c31ea85f33356051c5901772a7759703e779",
+          "bytes": 8644
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_pneumoniae/qualibact-v1.0/filtered_plots/Klebsiella_pneumoniae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_pneumoniae/qualibact-v1.0/plots/Klebsiella_pneumoniae_filt_N50_number.png",
+            "sha256": "30921876a424e17b10e5731601e4fad9f39ce4d30372d6c1bc5df4419eff5a56",
+            "bytes": 252396
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_pneumoniae/qualibact-v1.0/Klebsiella_pneumoniae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_pneumoniae/qualibact-v1.0/plots/Klebsiella_pneumoniae_CDS_vs_Genome_Size.png",
+            "sha256": "6afb7376807865a90593011b9097dbff4dd670718b3f2e37186c7fe4caadb718",
+            "bytes": 90427
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_pneumoniae/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_pneumoniae/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "9a01a0b128e49d9717f24963b3f32334678e367eed55e4ed76606758d7101df0",
+            "bytes": 33319
+          }
+        }
+      }
+    },
+    "Klebsiella quasipneumoniae": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_quasipneumoniae/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella quasipneumoniae is a Gram-negative, facultatively anaerobic, encapsulated rod in the family Enterobacteriaceae, closely related to Klebsiella pneumoniae and separated from it through genomic analyses. It comprises two subspecies (subsp. quasipneumoniae and subsp. similipneumoniae) and is isolated from clinical specimens including blood, urine, and respiratory samples. K. quasipneumoniae can harbour extended-spectrum beta-lactamase and carbapenemase genes, though it is generally less frequently associated with multidrug resistance and hypervirulence than K. pneumoniae.",
+      "genome_count": 2156,
+      "refseq_count": 176,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,500,000",
+          "warn_below": "5,000,000",
+          "warn_above": "6,000,000",
+          "fail_above": "6,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "56.4",
+          "warn_below": "56.9",
+          "warn_above": "58.3",
+          "fail_above": "58.7"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,400",
+          "warn_below": "4,700",
+          "warn_above": "5,700",
+          "fail_above": "6,300"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "97",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "33,000",
+          "warn_below": "60,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "230",
+          "fail_above": "390"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.5 Mb",
+          "5.0 Mb",
+          "6.0 Mb",
+          "6.3 Mb"
+        ],
+        [
+          "GC content",
+          "56.4%",
+          "56.9%",
+          "58.3%",
+          "58.7%"
+        ],
+        [
+          "Coding sequences",
+          "4,400",
+          "4,700",
+          "5,700",
+          "6,300"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "97%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "33 kb",
+          "60 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "230",
+          "390"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_quasipneumoniae/",
+          "cache_path": "cache/qualibact/Klebsiella_quasipneumoniae/page.html",
+          "sha256": "22b61be3a8d218f2fca6dc61f64f377e539195893a54280be426c8b16c20a030",
+          "bytes": 83476
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_quasipneumoniae/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_quasipneumoniae/qualibact-v1.1/manifest.json",
+          "sha256": "84198a680e086791446ebdb9a466df180a0e45328805a5a8e804f59cf4a9b26c",
+          "bytes": 9084
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_quasipneumoniae/qualibact-v1.1/filtered_plots/Klebsiella_quasipneumoniae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_quasipneumoniae/qualibact-v1.1/plots/Klebsiella_quasipneumoniae_filt_N50_number.png",
+            "sha256": "0da14425c1198c1a60060084519fc7c9d36e9137301d1e5692c41cf762e242e8",
+            "bytes": 134932
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_quasipneumoniae/qualibact-v1.1/Klebsiella_quasipneumoniae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_quasipneumoniae/qualibact-v1.1/plots/Klebsiella_quasipneumoniae_CDS_vs_Genome_Size.png",
+            "sha256": "2ccd6e1061a6d6c216bbb9f1d5abab81970182a11219b36e7ec9a45fb4b646b3",
+            "bytes": 70015
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_quasipneumoniae/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_quasipneumoniae/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "f0506a9a98ea53f48378309fdc1fb860f491ab1445d5dcc455885cf178e94bcf",
+            "bytes": 32629
+          }
+        }
+      }
+    },
+    "Klebsiella variicola": {
+      "qualibact_page": "https://qualibact.org/Klebsiella/Klebsiella_variicola/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": null,
+      "overview_source_text": "Klebsiella variicola is a Gram-negative, facultatively anaerobic, encapsulated rod in the family Enterobacteriaceae, originally described as a nitrogen-fixing endophyte of plants and closely related to Klebsiella pneumoniae. It is increasingly recognised as a clinically relevant species responsible for bloodstream infections, urinary tract infections, and neonatal sepsis, and is often misidentified as K. pneumoniae by conventional laboratory methods. K. variicola can acquire carbapenemase and hypervirulence plasmids, and genomic studies have revealed distinct population structures adapted to plant, environmental, and clinical niches.",
+      "genome_count": 2141,
+      "refseq_count": 189,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "5,200,000",
+          "warn_below": "5,300,000",
+          "warn_above": "6,200,000",
+          "fail_above": "6,500,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "55.5",
+          "warn_below": "56.4",
+          "warn_above": "57.7",
+          "fail_above": "58"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,900",
+          "warn_below": "4,900",
+          "warn_above": "6,000",
+          "fail_above": "6,500"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "98",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "35,000",
+          "warn_below": "68,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "230",
+          "fail_above": "320"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "5.2 Mb",
+          "5.3 Mb",
+          "6.2 Mb",
+          "6.5 Mb"
+        ],
+        [
+          "GC content",
+          "55.5%",
+          "56.4%",
+          "57.7%",
+          "58.0%"
+        ],
+        [
+          "Coding sequences",
+          "4,900",
+          "4,900",
+          "6,000",
+          "6,500"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "98%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "35 kb",
+          "68 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "230",
+          "320"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Klebsiella/Klebsiella_variicola/",
+          "cache_path": "cache/qualibact/Klebsiella_variicola/page.html",
+          "sha256": "ce1d0a274ca5fcbb618c5e80fcf3e51098c1875969f44fc6418c81c80f19b927",
+          "bytes": 82197
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Klebsiella_variicola/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Klebsiella_variicola/qualibact-v1.1/manifest.json",
+          "sha256": "68e693a5d8064727644ad09ebcd9714d803ef0f0ec6e9c099d67211700685258",
+          "bytes": 8647
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_variicola/qualibact-v1.1/filtered_plots/Klebsiella_variicola_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Klebsiella_variicola/qualibact-v1.1/plots/Klebsiella_variicola_filt_N50_number.png",
+            "sha256": "7eac137d257aba5f59804b251d08c14f11f4724169571b930f7af69772e62c92",
+            "bytes": 128744
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_variicola/qualibact-v1.1/Klebsiella_variicola_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Klebsiella_variicola/qualibact-v1.1/plots/Klebsiella_variicola_CDS_vs_Genome_Size.png",
+            "sha256": "52877f5542f2c4ad9b73290bb1f5f0381da9409a4fcf71c8b378da9a7e5ab79d",
+            "bytes": 69173
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Klebsiella_variicola/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Klebsiella_variicola/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "e481bf525976acc67952a915af03d6d7fadc7796b0071c75d77dd9694c90721e",
+            "bytes": 33806
+          }
+        }
+      }
+    },
+    "Listeria monocytogenes": {
+      "qualibact_page": "https://qualibact.org/Listeria/Listeria_monocytogenes/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Listeria monocytogenes is a Gram-positive, facultatively anaerobic, intracellular rod in the family Listeriaceae, and the causative agent of listeriosis, a severe foodborne infection with high case-fatality rates in pregnant women, neonates, the elderly, and immunocompromised individuals. It is ubiquitous in soil and water and can persist in food-processing facilities owing to its tolerance of cold, salt, and low pH. The genome of L. monocytogenes (~2.9 Mb) encodes key virulence factors such as listeriolysin O, ActA, and internalins, with four well-defined phylogenetic lineages showing distinct ecological and pathogenic profiles.",
+      "genome_count": 60247,
+      "refseq_count": 683,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "2,800,000",
+          "warn_below": "2,800,000",
+          "warn_above": "3,200,000",
+          "fail_above": "3,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "37.7",
+          "warn_below": "37.7",
+          "warn_above": "38",
+          "fail_above": "38.3"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "2,700",
+          "warn_below": "2,700",
+          "warn_above": "3,200",
+          "fail_above": "3,400"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "5"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "66,000",
+          "warn_below": "101,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "90",
+          "fail_above": "120"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "2.8 Mb",
+          "2.8 Mb",
+          "3.2 Mb",
+          "3.3 Mb"
+        ],
+        [
+          "GC content",
+          "37.7%",
+          "37.7%",
+          "38.0%",
+          "38.3%"
+        ],
+        [
+          "Coding sequences",
+          "2,700",
+          "2,700",
+          "3,200",
+          "3,400"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "5%"
+        ],
+        [
+          "N50 (Shovill)",
+          "66 kb",
+          "101 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "90",
+          "120"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Listeria/Listeria_monocytogenes/",
+          "cache_path": "cache/qualibact/Listeria_monocytogenes/page.html",
+          "sha256": "1379ff220d6722f39cc88d4002466e835ec97f88d416b6e086cd63e09893c342",
+          "bytes": 79998
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Listeria_monocytogenes/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Listeria_monocytogenes/qualibact-v1.0/manifest.json",
+          "sha256": "0ac798fba1a260fb9cef95cf9884e908e3410b735a85c84ffe95460499616946",
+          "bytes": 8709
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Listeria_monocytogenes/qualibact-v1.0/filtered_plots/Listeria_monocytogenes_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Listeria_monocytogenes/qualibact-v1.0/plots/Listeria_monocytogenes_filt_N50_number.png",
+            "sha256": "3e045e69c5f838410ef78d328e273b38742c59c1746066cb69bcb46ae100a611",
+            "bytes": 187526
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Listeria_monocytogenes/qualibact-v1.0/Listeria_monocytogenes_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Listeria_monocytogenes/qualibact-v1.0/plots/Listeria_monocytogenes_CDS_vs_Genome_Size.png",
+            "sha256": "1304d6fb7c0f5da6ab332e6f06b20ab5d19e33210e424579b4b7dcd65d144dd6",
+            "bytes": 84448
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Listeria_monocytogenes/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Listeria_monocytogenes/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "159f109b6d54277848c6af9b27ea19e69e026f37aa1990e65dca1f4d95c2627e",
+            "bytes": 30025
+          }
+        }
+      }
+    },
+    "Mycobacterium abscessus": {
+      "qualibact_page": "https://qualibact.org/Mycobacterium/Mycobacterium_abscessus/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Mycobacterium abscessus is a rapidly growing, acid-fast bacillus in the family Mycobacteriaceae, and the most clinically significant rapidly growing non-tuberculous mycobacterium (NTM). It causes chronic pulmonary infections particularly in individuals with cystic fibrosis or bronchiectasis, as well as skin and soft-tissue infections following trauma or surgery. The genome of M. abscessus (~5.1 Mb) is notable for intrinsic resistance to most antibiotics, an inducible erm(41) macrolide resistance gene, and a smooth-to-rough colony morphotype switch linked to glycopeptidolipid loss and increased virulence.",
+      "genome_count": 5573,
+      "refseq_count": 102,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,600,000",
+          "warn_below": "4,700,000",
+          "warn_above": "5,500,000",
+          "fail_above": "5,600,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "63.9",
+          "warn_below": "63.9",
+          "warn_above": "64.3",
+          "fail_above": "64.4"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,600",
+          "warn_below": "4,600",
+          "warn_above": "5,600",
+          "fail_above": "5,800"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "74,000",
+          "warn_below": "109,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "140",
+          "fail_above": "180"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.6 Mb",
+          "4.7 Mb",
+          "5.5 Mb",
+          "5.6 Mb"
+        ],
+        [
+          "GC content",
+          "63.9%",
+          "63.9%",
+          "64.3%",
+          "64.4%"
+        ],
+        [
+          "Coding sequences",
+          "4,600",
+          "4,600",
+          "5,600",
+          "5,800"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "74 kb",
+          "109 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "140",
+          "180"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Mycobacterium/Mycobacterium_abscessus/",
+          "cache_path": "cache/qualibact/Mycobacterium_abscessus/page.html",
+          "sha256": "533b828991d3aa21005fac2a4442e85d2eeb774ca25f1a9ea6de42ae6eb375be",
+          "bytes": 80187
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Mycobacterium_abscessus/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Mycobacterium_abscessus/qualibact-v1.0/manifest.json",
+          "sha256": "40d67ea5cb1962777206b1700be75eddbd1c93aa41e9e309ff4763885435f758",
+          "bytes": 8775
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_abscessus/qualibact-v1.0/filtered_plots/Mycobacterium_abscessus_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Mycobacterium_abscessus/qualibact-v1.0/plots/Mycobacterium_abscessus_filt_N50_number.png",
+            "sha256": "f17736035cde9ce20f81dea2ea3a5bd4d03baeb39d14772e0e5820258740f5bd",
+            "bytes": 127430
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_abscessus/qualibact-v1.0/Mycobacterium_abscessus_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Mycobacterium_abscessus/qualibact-v1.0/plots/Mycobacterium_abscessus_CDS_vs_Genome_Size.png",
+            "sha256": "3f4b48a6ee78db4d40168ead29ff34577a2446e89afee449e7a3948d1b8ca6b9",
+            "bytes": 61311
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_abscessus/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Mycobacterium_abscessus/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "fa95d26644f6ed003afe83bbcb45bcf01284a83a4781461762e5ade8e84dbabd",
+            "bytes": 29352
+          }
+        }
+      }
+    },
+    "Mycobacterium tuberculosis": {
+      "qualibact_page": "https://qualibact.org/Mycobacterium/Mycobacterium_tuberculosis/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Mycobacterium tuberculosis is a slow-growing, aerobic, acid-fast bacillus in the family Mycobacteriaceae, and the causative agent of tuberculosis, which remains the leading cause of death from a single infectious agent worldwide. It is an obligate human pathogen transmitted via respiratory aerosols, capable of establishing latent infection that can persist for decades before reactivating. The genome of M. tuberculosis (~4.4 Mb) is remarkably conserved with very limited horizontal gene transfer, and its GC-rich sequence encodes an unusually large number of genes devoted to lipid metabolism and cell-wall biosynthesis, key determinants of its pathogenicity and drug resistance.",
+      "genome_count": 170868,
+      "refseq_count": 500,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,200,000",
+          "warn_below": "4,200,000",
+          "warn_above": "4,500,000",
+          "fail_above": "4,600,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "65.2",
+          "warn_below": "65.3",
+          "warn_above": "65.7",
+          "fail_above": "65.7"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,000",
+          "warn_below": "4,000",
+          "warn_above": "4,300",
+          "fail_above": "4,600"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "34,000",
+          "warn_below": "45,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "260",
+          "fail_above": "310"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.2 Mb",
+          "4.2 Mb",
+          "4.5 Mb",
+          "4.6 Mb"
+        ],
+        [
+          "GC content",
+          "65.2%",
+          "65.3%",
+          "65.7%",
+          "65.7%"
+        ],
+        [
+          "Coding sequences",
+          "4,000",
+          "4,000",
+          "4,300",
+          "4,600"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "34 kb",
+          "45 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "260",
+          "310"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Mycobacterium/Mycobacterium_tuberculosis/",
+          "cache_path": "cache/qualibact/Mycobacterium_tuberculosis/page.html",
+          "sha256": "d2560ca804c99da85781c091c3f6974f177f1794a57ca99fb6305000b0d8cc64",
+          "bytes": 80962
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Mycobacterium_tuberculosis/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Mycobacterium_tuberculosis/qualibact-v1.0/manifest.json",
+          "sha256": "6469c63e5ebdbdfc8fb8ab7294c93204567916f3efd3821a510e72bb0e56a6b8",
+          "bytes": 8960
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_tuberculosis/qualibact-v1.0/filtered_plots/Mycobacterium_tuberculosis_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Mycobacterium_tuberculosis/qualibact-v1.0/plots/Mycobacterium_tuberculosis_filt_N50_number.png",
+            "sha256": "1b6aa0c14c377abca4842bb0d039a81e1f44df54711d4abd55e29d6bac9dd477",
+            "bytes": 208826
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_tuberculosis/qualibact-v1.0/Mycobacterium_tuberculosis_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Mycobacterium_tuberculosis/qualibact-v1.0/plots/Mycobacterium_tuberculosis_CDS_vs_Genome_Size.png",
+            "sha256": "1868a5b2022a9977a6fe1a01bc438d528bb49b6c34dfaa7586cd206f67637383",
+            "bytes": 118206
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Mycobacterium_tuberculosis/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Mycobacterium_tuberculosis/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "e06ae5b64b147a57d729b7436f0a2f003e4a556a77e504bcd535ed80af30ded3",
+            "bytes": 22736
+          }
+        }
+      }
+    },
+    "Neisseria gonorrhoeae": {
+      "qualibact_page": "https://qualibact.org/Neisseria/Neisseria_gonorrhoeae/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": "WARN",
+      "overview_source_text": "Neisseria gonorrhoeae is an aerobic, Gram-negative diplococcus in the family Neisseriaceae, and the causative agent of gonorrhoea, one of the most prevalent sexually transmitted infections worldwide. It infects the mucosal surfaces of the urogenital tract, rectum, pharynx, and conjunctivae, and untreated infections can lead to pelvic inflammatory disease, infertility, and disseminated gonococcal infection. The genome of N. gonorrhoeae (~2.2 Mb) is naturally competent for transformation and exhibits extensive antigenic variation in surface structures such as pili, Opa proteins, and lipooligosaccharides; the progressive acquisition of resistance to nearly every therapeutic antibiotic class has made multidrug-resistant gonorrhoea a critical global health threat.",
+      "genome_count": 53435,
+      "refseq_count": 272,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "2,000,000",
+          "warn_below": "2,000,000",
+          "warn_above": "2,300,000",
+          "fail_above": "2,400,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "52",
+          "warn_below": "52.3",
+          "warn_above": "52.7",
+          "fail_above": "52.8"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,900",
+          "warn_below": "2,100",
+          "warn_above": "2,300",
+          "fail_above": "2,500"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "25,000",
+          "warn_below": "35,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "200",
+          "fail_above": "230"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "2.0 Mb",
+          "2.0 Mb",
+          "2.3 Mb",
+          "2.4 Mb"
+        ],
+        [
+          "GC content",
+          "52.0%",
+          "52.3%",
+          "52.7%",
+          "52.8%"
+        ],
+        [
+          "Coding sequences",
+          "1,900",
+          "2,100",
+          "2,300",
+          "2,500"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "25 kb",
+          "35 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "200",
+          "230"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Neisseria/Neisseria_gonorrhoeae/",
+          "cache_path": "cache/qualibact/Neisseria_gonorrhoeae/page.html",
+          "sha256": "d4694cdb528a66463e4a6063067a65cad8e89faf2613fa361ceca9a3f9b97c3b",
+          "bytes": 85764
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Neisseria_gonorrhoeae/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Neisseria_gonorrhoeae/qualibact-v1.1/manifest.json",
+          "sha256": "287d0fdb23fde913702176ae9e314aa3166cc095797de797261287585cc3da9d",
+          "bytes": 8975
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_gonorrhoeae/qualibact-v1.1/filtered_plots/Neisseria_gonorrhoeae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Neisseria_gonorrhoeae/qualibact-v1.1/plots/Neisseria_gonorrhoeae_filt_N50_number.png",
+            "sha256": "dc7326f2ccbca6cb4340fc660e04952fb5fdc6ef5fd183fe362e9e523b8b6375",
+            "bytes": 199192
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_gonorrhoeae/qualibact-v1.1/Neisseria_gonorrhoeae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Neisseria_gonorrhoeae/qualibact-v1.1/plots/Neisseria_gonorrhoeae_CDS_vs_Genome_Size.png",
+            "sha256": "62e0118675bee1e4a05e05076b4120216183451b1690ae8d0ed1ee4ac9e895db",
+            "bytes": 102780
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_gonorrhoeae/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Neisseria_gonorrhoeae/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "9f32bcf22e31c342fbc70398f9f42666bea9b19b621d2cd03a6a89af2b921656",
+            "bytes": 34346
+          }
+        }
+      }
+    },
+    "Neisseria meningitidis": {
+      "qualibact_page": "https://qualibact.org/Neisseria/Neisseria_meningitidis/",
+      "preferred_scheme": "qualibact-v1.1",
+      "engine_flag": "WARN",
+      "overview_source_text": "Neisseria meningitidis is an aerobic, encapsulated, Gram-negative diplococcus in the family Neisseriaceae, carried asymptomatically in the nasopharynx of approximately 10% of the population. It is a leading cause of bacterial meningitis and fulminant septicaemia (meningococcaemia), with epidemics particularly affecting the African meningitis belt and military recruits. The genome of N. meningitidis (~2.3 Mb) is highly recombinogenic and naturally transformable, with 13 capsular serogroups defined by polysaccharide biosynthesis loci, of which serogroups A, B, C, W, X, and Y account for nearly all invasive disease.",
+      "genome_count": 32386,
+      "refseq_count": 127,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,800,000",
+          "warn_below": "2,033,459",
+          "warn_above": "2,397,461",
+          "fail_above": "2,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "50",
+          "warn_below": "51",
+          "warn_above": "52.2",
+          "fail_above": "54"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,700",
+          "warn_below": "1,926",
+          "warn_above": "2,420",
+          "fail_above": "2,700"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "97.12",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2.47",
+          "fail_above": "4"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "16,000",
+          "warn_below": "18,778",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "306",
+          "fail_above": "340"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.8 Mb",
+          "2.0 Mb",
+          "2.4 Mb",
+          "2.3 Mb"
+        ],
+        [
+          "GC content",
+          "50.0%",
+          "51.0%",
+          "52.2%",
+          "54.0%"
+        ],
+        [
+          "Coding sequences",
+          "1,700",
+          "1,926",
+          "2,420",
+          "2,700"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "97.12%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2.47%",
+          "4%"
+        ],
+        [
+          "N50 (Shovill)",
+          "16 kb",
+          "18.778 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "306",
+          "340"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Neisseria/Neisseria_meningitidis/",
+          "cache_path": "cache/qualibact/Neisseria_meningitidis/page.html",
+          "sha256": "76c01085fb246620cb13a0f18e1d4da5632bd425d499370b12b95252378c52ac",
+          "bytes": 80365
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Neisseria_meningitidis/qualibact-v1.1/manifest.json",
+          "cache_path": "cache/qualibact/Neisseria_meningitidis/qualibact-v1.1/manifest.json",
+          "sha256": "a2299cd02f2d40dbb98440698b13d7e75d30c335e3f51e1052077ad23963a305",
+          "bytes": 8542
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_meningitidis/qualibact-v1.1/filtered_plots/Neisseria%20meningitidis_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Neisseria_meningitidis/qualibact-v1.1/plots/Neisseria meningitidis_filt_N50_number.png",
+            "sha256": "1b97fd8966ec62c7f8f0d0bcaa7b0ee3aa276070d9aaa541c0813c95e138bdb6",
+            "bytes": 282012
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_meningitidis/qualibact-v1.1/Neisseria_meningitidis_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Neisseria_meningitidis/qualibact-v1.1/plots/Neisseria_meningitidis_CDS_vs_Genome_Size.png",
+            "sha256": "b814c3a1c8f5b213cf4f15841d3ba9984a826f325f24cfcd9e7a9825699e80a5",
+            "bytes": 122260
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Neisseria_meningitidis/qualibact-v1.1/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Neisseria_meningitidis/qualibact-v1.1/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "b0f7ae9085a1eaf5ffd2392c2aabfa9cb91469a99ecc517239190f9ccae1351f",
+            "bytes": 33418
+          }
+        }
+      }
+    },
+    "Pseudomonas aeruginosa": {
+      "qualibact_page": "https://qualibact.org/Pseudomonas/Pseudomonas_aeruginosa/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Pseudomonas aeruginosa is a Gram-negative, aerobic, non-fermenting rod in the family Pseudomonadaceae, ubiquitous in soil, water, and moist environments. It is one of the most clinically significant opportunistic pathogens, causing chronic lung infections in cystic fibrosis patients, ventilator-associated pneumonia, burn wound infections, and bloodstream infections, and is listed by the WHO as a critical-priority pathogen due to carbapenem resistance. P. aeruginosa possesses a large, highly adaptable genome (~6.3 Mb) encoding quorum-sensing networks, type III and type VI secretion systems, extensive efflux pumps, and a broad capacity for biofilm formation.",
+      "genome_count": 41455,
+      "refseq_count": 1364,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "6,000,000",
+          "warn_below": "6,200,000",
+          "warn_above": "7,200,000",
+          "fail_above": "7,800,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "65.1",
+          "warn_below": "65.6",
+          "warn_above": "66.6",
+          "fail_above": "66.7"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "5,600",
+          "warn_below": "5,700",
+          "warn_above": "6,800",
+          "fail_above": "7,600"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "94",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "7"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "42,000",
+          "warn_below": "63,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "320",
+          "fail_above": "430"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "6.0 Mb",
+          "6.2 Mb",
+          "7.2 Mb",
+          "7.8 Mb"
+        ],
+        [
+          "GC content",
+          "65.1%",
+          "65.6%",
+          "66.6%",
+          "66.7%"
+        ],
+        [
+          "Coding sequences",
+          "5,600",
+          "5,700",
+          "6,800",
+          "7,600"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "94%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "7%"
+        ],
+        [
+          "N50 (Shovill)",
+          "42 kb",
+          "63 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "320",
+          "430"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Pseudomonas/Pseudomonas_aeruginosa/",
+          "cache_path": "cache/qualibact/Pseudomonas_aeruginosa/page.html",
+          "sha256": "a67817dff12032c5fe13826de167b4579d17f34562ebff12855ecee65dc9f835",
+          "bytes": 80055
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Pseudomonas_aeruginosa/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Pseudomonas_aeruginosa/qualibact-v1.0/manifest.json",
+          "sha256": "4bb8f825c399049fa8d8755660a261da1dda8ab85913cda99f2a4c7ae46fd969",
+          "bytes": 8703
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Pseudomonas_aeruginosa/qualibact-v1.0/filtered_plots/Pseudomonas_aeruginosa_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Pseudomonas_aeruginosa/qualibact-v1.0/plots/Pseudomonas_aeruginosa_filt_N50_number.png",
+            "sha256": "63b62227e9d53987d088236832c1c901f10431298f4dbc59c42807af5cb3480d",
+            "bytes": 238566
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Pseudomonas_aeruginosa/qualibact-v1.0/Pseudomonas_aeruginosa_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Pseudomonas_aeruginosa/qualibact-v1.0/plots/Pseudomonas_aeruginosa_CDS_vs_Genome_Size.png",
+            "sha256": "00726ff4ef11e6eeea9655387b459be8f421dc46eaf16738645a819d4c8d556e",
+            "bytes": 83618
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Pseudomonas_aeruginosa/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Pseudomonas_aeruginosa/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "2ecb4f05d5d0ff7b10dcf51bbcd603a116050ee77c8b8d084179764135b49448",
+            "bytes": 28119
+          }
+        }
+      }
+    },
+    "Salmonella enterica": {
+      "qualibact_page": "https://qualibact.org/Salmonella/Salmonella_enterica/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": "WARN",
+      "overview_source_text": "Salmonella enterica is a Gram-negative, facultatively anaerobic rod in the family Enterobacteriaceae, and one of the most important foodborne pathogens globally, encompassing over 2,600 serovars. Depending on the serovar, it causes diseases ranging from self-limiting gastroenteritis (e.g., serovar Typhimurium) to life-threatening typhoid fever (serovar Typhi), collectively responsible for millions of infections and hundreds of thousands of deaths annually. The S. enterica genome features multiple pathogenicity islands (SPIs), prophages, and fimbrial operons that drive host adaptation, with a large, dynamic pangenome reflecting extensive serovar-level diversification.",
+      "genome_count": 583602,
+      "refseq_count": 1972,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,400,000",
+          "warn_below": "4,500,000",
+          "warn_above": "5,100,000",
+          "fail_above": "5,900,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "51.1",
+          "warn_below": "51.9",
+          "warn_above": "52.3",
+          "fail_above": "52.4"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "4,100",
+          "warn_below": "4,200",
+          "warn_above": "4,900",
+          "fail_above": "6,000"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "96",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "8"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "64,000",
+          "warn_below": "90,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "160",
+          "fail_above": "190"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.4 Mb",
+          "4.5 Mb",
+          "5.1 Mb",
+          "5.9 Mb"
+        ],
+        [
+          "GC content",
+          "51.1%",
+          "51.9%",
+          "52.3%",
+          "52.4%"
+        ],
+        [
+          "Coding sequences",
+          "4,100",
+          "4,200",
+          "4,900",
+          "6,000"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "96%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "8%"
+        ],
+        [
+          "N50 (Shovill)",
+          "64 kb",
+          "90 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "160",
+          "190"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Salmonella/Salmonella_enterica/",
+          "cache_path": "cache/qualibact/Salmonella_enterica/page.html",
+          "sha256": "a5c23e964041c69637cd1bccd96783adfa686c3987b3598b6370a2e39f524748",
+          "bytes": 84780
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Salmonella_enterica/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Salmonella_enterica/qualibact-v1.0/manifest.json",
+          "sha256": "d679dc5d68c145abc541008063fb587f3bc4f193cc9a0eebb22a185b581a34de",
+          "bytes": 8814
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Salmonella_enterica/qualibact-v1.0/filtered_plots/Salmonella_enterica_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Salmonella_enterica/qualibact-v1.0/plots/Salmonella_enterica_filt_N50_number.png",
+            "sha256": "8b105db01f07e46d1e78ea7c8ee6e8ce151b762aefa8600a9bfb3156f520ea2a",
+            "bytes": 286324
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Salmonella_enterica/qualibact-v1.0/Salmonella_enterica_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Salmonella_enterica/qualibact-v1.0/plots/Salmonella_enterica_CDS_vs_Genome_Size.png",
+            "sha256": "1a4cc86bfd5b0b8e3be00be92df439cb3650343712f128ca35a22ec26ac2afa1",
+            "bytes": 78922
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Salmonella_enterica/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Salmonella_enterica/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "d8a926cbd24b7026456dec4ae48b7f687069aa2b4166c78061aeb53910edffdc",
+            "bytes": 26731
+          }
+        }
+      }
+    },
+    "Staphylococcus aureus": {
+      "qualibact_page": "https://qualibact.org/Staphylococcus/Staphylococcus_aureus/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Staphylococcus aureus is a coagulase-positive, Gram-positive coccus of the family Staphylococcaceae, commonly carried on the skin and in the nares of healthy individuals. It is one of the most clinically significant bacterial pathogens, causing a wide spectrum of diseases from skin infections and food poisoning to endocarditis, osteomyelitis, and sepsis, with methicillin-resistant strains (MRSA) posing a major public-health threat. Genomically, S. aureus features a highly conserved core genome alongside a rich mobile genetic element repertoire encoding toxins, immune evasion factors, and antimicrobial resistance determinants.",
+      "genome_count": 112764,
+      "refseq_count": 1860,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "2,600,000",
+          "warn_below": "2,600,000",
+          "warn_above": "3,000,000",
+          "fail_above": "3,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "32.5",
+          "warn_below": "32.6",
+          "warn_above": "32.9",
+          "fail_above": "33.1"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "2,400",
+          "warn_below": "2,400",
+          "warn_above": "2,900",
+          "fail_above": "3,400"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "4"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "28,000",
+          "warn_below": "45,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "170",
+          "fail_above": "260"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "2.6 Mb",
+          "2.6 Mb",
+          "3.0 Mb",
+          "3.3 Mb"
+        ],
+        [
+          "GC content",
+          "32.5%",
+          "32.6%",
+          "32.9%",
+          "33.1%"
+        ],
+        [
+          "Coding sequences",
+          "2,400",
+          "2,400",
+          "2,900",
+          "3,400"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "4%"
+        ],
+        [
+          "N50 (Shovill)",
+          "28 kb",
+          "45 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "170",
+          "260"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Staphylococcus/Staphylococcus_aureus/",
+          "cache_path": "cache/qualibact/Staphylococcus_aureus/page.html",
+          "sha256": "1d2117ce08a79d151fdc7e7c8b695ccbff0ab7814de3cc41e06d06ad10d40c3c",
+          "bytes": 79275
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Staphylococcus_aureus/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Staphylococcus_aureus/qualibact-v1.0/manifest.json",
+          "sha256": "df21f5aa2c865f04db29d789b41c138d71e29abde987864420c2f7bfd6837898",
+          "bytes": 8596
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Staphylococcus_aureus/qualibact-v1.0/filtered_plots/Staphylococcus_aureus_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Staphylococcus_aureus/qualibact-v1.0/plots/Staphylococcus_aureus_filt_N50_number.png",
+            "sha256": "9ca342c65fa89dc5dbf5bb3d5a5912b3004a0d1eb35663d52770044ffc367eb0",
+            "bytes": 203695
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Staphylococcus_aureus/qualibact-v1.0/Staphylococcus_aureus_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Staphylococcus_aureus/qualibact-v1.0/plots/Staphylococcus_aureus_CDS_vs_Genome_Size.png",
+            "sha256": "bb6ea11ece4afe6ba70fd06663dcc2b6cfad8118bab667fc6d4a4e91ff18cca0",
+            "bytes": 81938
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Staphylococcus_aureus/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Staphylococcus_aureus/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "5d8833515a62037b60c91d7f2bd4ac27c64e717490fada9c8db4458f521f4c3e",
+            "bytes": 33973
+          }
+        }
+      }
+    },
+    "Stenotrophomonas maltophilia": {
+      "qualibact_page": "https://qualibact.org/Stenotrophomonas/Stenotrophomonas_maltophilia/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Stenotrophomonas maltophilia is a non-fermenting, Gram-negative rod of the family Lysobacteraceae (order Xanthomonadales), ubiquitous in aqueous environments, soil, and the rhizosphere. It is an increasingly important opportunistic pathogen in hospitalised and immunocompromised patients, causing pneumonia, bloodstream infections, and catheter-related infections, with intrinsic resistance to many broad-spectrum antibiotics including carbapenems. Genomically, S. maltophilia is highly diverse, comprising multiple genomospecies with an open pangenome, chromosomally encoded beta-lactamases, and efflux pumps that underpin its multidrug-resistant phenotype.",
+      "genome_count": 1881,
+      "refseq_count": 88,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "4,100,000",
+          "warn_below": "4,400,000",
+          "warn_above": "5,200,000",
+          "fail_above": "5,200,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "65.6",
+          "warn_below": "65.8",
+          "warn_above": "66.9",
+          "fail_above": "67.7"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "3,700",
+          "warn_below": "3,900",
+          "warn_above": "4,800",
+          "fail_above": "4,900"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "93",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "2",
+          "fail_above": "5"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "23,000",
+          "warn_below": "31,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "290",
+          "fail_above": "380"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "4.1 Mb",
+          "4.4 Mb",
+          "5.2 Mb",
+          "5.2 Mb"
+        ],
+        [
+          "GC content",
+          "65.6%",
+          "65.8%",
+          "66.9%",
+          "67.7%"
+        ],
+        [
+          "Coding sequences",
+          "3,700",
+          "3,900",
+          "4,800",
+          "4,900"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "93%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "2%",
+          "5%"
+        ],
+        [
+          "N50 (Shovill)",
+          "23 kb",
+          "31 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "290",
+          "380"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Stenotrophomonas/Stenotrophomonas_maltophilia/",
+          "cache_path": "cache/qualibact/Stenotrophomonas_maltophilia/page.html",
+          "sha256": "2cac9b7e12b3d38a0f160915204d8183323d6174670bb321f0ec2fd230df746e",
+          "bytes": 80772
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Stenotrophomonas_maltophilia/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Stenotrophomonas_maltophilia/qualibact-v1.0/manifest.json",
+          "sha256": "443c218ed6103cfeefb03ff3584221f13e2df23ecf2d526d41c3e213541e94db",
+          "bytes": 9160
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Stenotrophomonas_maltophilia/qualibact-v1.0/filtered_plots/Stenotrophomonas_maltophilia_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Stenotrophomonas_maltophilia/qualibact-v1.0/plots/Stenotrophomonas_maltophilia_filt_N50_number.png",
+            "sha256": "3d704aa5ab5b6ff250d33ae7d650a97d7b1b48f600188cfa9c5eb89cf761f2d4",
+            "bytes": 109026
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Stenotrophomonas_maltophilia/qualibact-v1.0/Stenotrophomonas_maltophilia_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Stenotrophomonas_maltophilia/qualibact-v1.0/plots/Stenotrophomonas_maltophilia_CDS_vs_Genome_Size.png",
+            "sha256": "171131e73f42d07eb32e039b57a1328bfdbf21f9a84d18d69789dd989fe7f35a",
+            "bytes": 41444
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Stenotrophomonas_maltophilia/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Stenotrophomonas_maltophilia/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "0a594fd6b8eae9aaffc710cf4beebc37489e73e4c596833280bd6ff6f29a3d47",
+            "bytes": 31342
+          }
+        }
+      }
+    },
+    "Streptococcus equi": {
+      "qualibact_page": "https://qualibact.org/Streptococcus/Streptococcus_equi/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Streptococcus equi is a Gram-positive, beta-haemolytic coccus of the family Streptococcaceae, belonging to Lancefield group C. Subspecies equi is the causative agent of strangles, a highly contagious upper respiratory infection of horses characterised by abscessation of the lymph nodes of the head and neck. Genomically, S. equi subsp. equi evolved from the more genetically diverse subspecies zooepidemicus through genome reduction and acquisition of specific virulence factors, including the superantigen SePE and the antiphagocytic SeM protein.",
+      "genome_count": 1833,
+      "refseq_count": 41,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,900,000",
+          "warn_below": "2,000,000",
+          "warn_above": "2,200,000",
+          "fail_above": "2,300,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "40.9",
+          "warn_below": "41.1",
+          "warn_above": "41.8",
+          "fail_above": "41.9"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,800",
+          "warn_below": "1,800",
+          "warn_above": "2,200",
+          "fail_above": "2,300"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "97",
+          "warn_below": "99",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "2"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "24,000",
+          "warn_below": "29,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "200",
+          "fail_above": "210"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.9 Mb",
+          "2.0 Mb",
+          "2.2 Mb",
+          "2.3 Mb"
+        ],
+        [
+          "GC content",
+          "40.9%",
+          "41.1%",
+          "41.8%",
+          "41.9%"
+        ],
+        [
+          "Coding sequences",
+          "1,800",
+          "1,800",
+          "2,200",
+          "2,300"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "97%",
+          "99%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "2%"
+        ],
+        [
+          "N50 (Shovill)",
+          "24 kb",
+          "29 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "200",
+          "210"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Streptococcus/Streptococcus_equi/",
+          "cache_path": "cache/qualibact/Streptococcus_equi/page.html",
+          "sha256": "ae5fdd283ea3e9f51c6073becc3f285fab55c074bb4a8fa51d7a48c04d7aeae0",
+          "bytes": 79057
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Streptococcus_equi/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Streptococcus_equi/qualibact-v1.0/manifest.json",
+          "sha256": "e91767596c2114ffb91f3d69119d37cccb7e89e302139d0e89f762779c07e09d",
+          "bytes": 8436
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_equi/qualibact-v1.0/filtered_plots/Streptococcus_equi_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Streptococcus_equi/qualibact-v1.0/plots/Streptococcus_equi_filt_N50_number.png",
+            "sha256": "7726d68a003b7db6fef38e2da9f4ef6693957a84e159bffeb76c3076f237e3a8",
+            "bytes": 156741
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_equi/qualibact-v1.0/Streptococcus_equi_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Streptococcus_equi/qualibact-v1.0/plots/Streptococcus_equi_CDS_vs_Genome_Size.png",
+            "sha256": "958f112a9eb513943b62e34cc42264ade5f3542de27deac3045cd7101413d6ef",
+            "bytes": 87226
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_equi/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Streptococcus_equi/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "c33bb0c89c83b9f214d24cc88df172367a81c415a47b828e14e44a97072c679f",
+            "bytes": 29079
+          }
+        }
+      }
+    },
+    "Streptococcus pneumoniae": {
+      "qualibact_page": "https://qualibact.org/Streptococcus/Streptococcus_pneumoniae/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": null,
+      "overview_source_text": "Streptococcus pneumoniae is a Gram-positive, alpha-haemolytic, lancet-shaped diplococcus of the family Streptococcaceae, commonly carried asymptomatically in the human nasopharynx. It is a major cause of community-acquired pneumonia, bacterial meningitis, otitis media, and sepsis worldwide, with the polysaccharide capsule being its principal virulence determinant and the basis for over 100 known serotypes. Genomically, S. pneumoniae is naturally transformable and highly recombinogenic, with an open pangenome that facilitates capsule switching, acquisition of antibiotic resistance, and vaccine escape.",
+      "genome_count": 111922,
+      "refseq_count": 275,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "1,900,000",
+          "warn_below": "1,900,000",
+          "warn_above": "2,200,000",
+          "fail_above": "2,400,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "39.3",
+          "warn_below": "39.4",
+          "warn_above": "39.8",
+          "fail_above": "40"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "1,900",
+          "warn_below": "1,900",
+          "warn_above": "2,300",
+          "fail_above": "2,500"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "97",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "3"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "25,000",
+          "warn_below": "33,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "180",
+          "fail_above": "210"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "1.9 Mb",
+          "1.9 Mb",
+          "2.2 Mb",
+          "2.4 Mb"
+        ],
+        [
+          "GC content",
+          "39.3%",
+          "39.4%",
+          "39.8%",
+          "40.0%"
+        ],
+        [
+          "Coding sequences",
+          "1,900",
+          "1,900",
+          "2,300",
+          "2,500"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "97%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "3%"
+        ],
+        [
+          "N50 (Shovill)",
+          "25 kb",
+          "33 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "180",
+          "210"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Streptococcus/Streptococcus_pneumoniae/",
+          "cache_path": "cache/qualibact/Streptococcus_pneumoniae/page.html",
+          "sha256": "4deeace788a54826a2d5c53ca099bf416077d8a9c0bca43f94feb6645375ac05",
+          "bytes": 80377
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Streptococcus_pneumoniae/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Streptococcus_pneumoniae/qualibact-v1.0/manifest.json",
+          "sha256": "afa3648aa15e0a4a9277cbcc35a80823b57f8b8801568b3d377e5907541410b8",
+          "bytes": 8844
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_pneumoniae/qualibact-v1.0/filtered_plots/Streptococcus_pneumoniae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Streptococcus_pneumoniae/qualibact-v1.0/plots/Streptococcus_pneumoniae_filt_N50_number.png",
+            "sha256": "1646ebe0cdefb6a1d2cd47b1938b047c17c0fc16443d0a59197c17e0f2c2bfb6",
+            "bytes": 204282
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_pneumoniae/qualibact-v1.0/Streptococcus_pneumoniae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Streptococcus_pneumoniae/qualibact-v1.0/plots/Streptococcus_pneumoniae_CDS_vs_Genome_Size.png",
+            "sha256": "b0d01f2ff62ad2845c698a2231288935c49363d98835cf5e91b6b143e0d056cb",
+            "bytes": 83486
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Streptococcus_pneumoniae/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Streptococcus_pneumoniae/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "78394e567dbebfc13f0ee50557337e6a767f48b2783cbe98cb6ed084a0d63963",
+            "bytes": 32220
+          }
+        }
+      }
+    },
+    "Vibrio cholerae": {
+      "qualibact_page": "https://qualibact.org/Vibrio/Vibrio_cholerae/",
+      "preferred_scheme": "qualibact-v1.0",
+      "engine_flag": "WARN",
+      "overview_source_text": "Vibrio cholerae is a Gram-negative, curved rod of the family Vibrionaceae and the aetiological agent of cholera, a severe diarrhoeal disease responsible for major pandemics throughout history. Toxigenic strains of serogroups O1 and O139 produce cholera toxin (CT) and the toxin-coregulated pilus (TCP), both encoded on mobile genetic elements, while non-toxigenic strains are common in estuarine environments. V. cholerae has a bipartite genome with extensive horizontal gene transfer, prophage content, and genomic islands that drive the emergence of new pandemic lineages.",
+      "genome_count": 12155,
+      "refseq_count": 176,
+      "published_thresholds_raw": [
+        {
+          "metric": "Genome_Size",
+          "fail_below": "3,800,000",
+          "warn_below": "3,900,000",
+          "warn_above": "4,200,000",
+          "fail_above": "4,500,000"
+        },
+        {
+          "metric": "GC_Content",
+          "fail_below": "47",
+          "warn_below": "47.3",
+          "warn_above": "47.7",
+          "fail_above": "47.9"
+        },
+        {
+          "metric": "Total_Coding_Sequences",
+          "fail_below": "3,400",
+          "warn_below": "3,400",
+          "warn_above": "3,800",
+          "fail_above": "4,200"
+        },
+        {
+          "metric": "Completeness_Specific",
+          "fail_below": "95",
+          "warn_below": "100",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "Contamination",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "1",
+          "fail_above": "5"
+        },
+        {
+          "metric": "N50",
+          "fail_below": "81,000",
+          "warn_below": "108,000",
+          "warn_above": "-",
+          "fail_above": "-"
+        },
+        {
+          "metric": "no_of_contigs",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "180",
+          "fail_above": "230"
+        },
+        {
+          "metric": "longest",
+          "fail_below": "-",
+          "warn_below": "-",
+          "warn_above": "-",
+          "fail_above": "-"
+        }
+      ],
+      "published_thresholds_display": [
+        [
+          "Genome size",
+          "3.8 Mb",
+          "3.9 Mb",
+          "4.2 Mb",
+          "4.5 Mb"
+        ],
+        [
+          "GC content",
+          "47.0%",
+          "47.3%",
+          "47.7%",
+          "47.9%"
+        ],
+        [
+          "Coding sequences",
+          "3,400",
+          "3,400",
+          "3,800",
+          "4,200"
+        ],
+        [
+          "Completeness (CheckM2)",
+          "95%",
+          "100%",
+          "—",
+          "—"
+        ],
+        [
+          "Contamination (CheckM2)",
+          "—",
+          "—",
+          "1%",
+          "5%"
+        ],
+        [
+          "N50 (Shovill)",
+          "81 kb",
+          "108 kb",
+          "—",
+          "—"
+        ],
+        [
+          "Contigs (Shovill)",
+          "—",
+          "—",
+          "180",
+          "230"
+        ]
+      ],
+      "left_figure_is_filtered_n50_vs_contigs": true,
+      "source_files": {
+        "page": {
+          "url": "https://qualibact.org/Vibrio/Vibrio_cholerae/",
+          "cache_path": "cache/qualibact/Vibrio_cholerae/page.html",
+          "sha256": "890f679dc643cf744dbdaefe315edcbd3902f924b7c7b786587ae3ec4e8bd224",
+          "bytes": 81525
+        },
+        "manifest": {
+          "url": "https://static.qualibact.org/static/species/Vibrio_cholerae/qualibact-v1.0/manifest.json",
+          "cache_path": "cache/qualibact/Vibrio_cholerae/qualibact-v1.0/manifest.json",
+          "sha256": "c839717eb97e5caad9277b2045c261711ba67a55140087495dec74b42916ccbf",
+          "bytes": 8541
+        },
+        "figures": {
+          "left": {
+            "url": "https://static.qualibact.org/static/species/Vibrio_cholerae/qualibact-v1.0/filtered_plots/Vibrio_cholerae_filt_N50_number.png",
+            "cache_path": "cache/qualibact/Vibrio_cholerae/qualibact-v1.0/plots/Vibrio_cholerae_filt_N50_number.png",
+            "sha256": "ddc9d908c3f418590519646c5def2a386359f0a33e483d3861af18e453581c78",
+            "bytes": 227800
+          },
+          "right_top": {
+            "url": "https://static.qualibact.org/static/species/Vibrio_cholerae/qualibact-v1.0/Vibrio_cholerae_CDS_vs_Genome_Size.png",
+            "cache_path": "cache/qualibact/Vibrio_cholerae/qualibact-v1.0/plots/Vibrio_cholerae_CDS_vs_Genome_Size.png",
+            "sha256": "89102a45150ebd5037e68b248e1aea07605efd37a6a45387f215c05e5f7d15a9",
+            "bytes": 49747
+          },
+          "right_bottom": {
+            "url": "https://static.qualibact.org/static/species/Vibrio_cholerae/qualibact-v1.0/GC_Content_refseq_histogram_kde.png",
+            "cache_path": "cache/qualibact/Vibrio_cholerae/qualibact-v1.0/plots/GC_Content_refseq_histogram_kde.png",
+            "sha256": "c63177ba93ea4f1a14ff7503673e45a9b71e9b0a7493a3ba6a24ea61ea31dd47",
+            "bytes": 29832
+          }
+        }
+      }
+    }
+  }
+}
